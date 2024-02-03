@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-...."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../src/output.css" />
+    <title>Document</title>
+  </head>
+  <body
+    class="sm:bg-yellow-300 md:bg-green-300 lg:bg-pink-300 xl:bg-blue-300 2xl:bg-red-300"
+  >
+    <div>
+      <div class="flex justify-between bg-[#181451] px-5 sm:px-10">
+        <div>
+          <img src="../Image/logo.png" alt="logo" class="w-[100px] h-[100px]" />
+        </div>
+        <div class="flex justify-center items-center text-white">
+          <button class="bg-[#FF6A16] rounded-md px-3 py-2">
+            <a href="./addTodo.html">
+              <span class="pr-4"
+                ><i class="fa-solid fa-plus" style="color: #000"></i></span
+              >Add todo</a
+            >
+          </button>
+        </div>
+      </div>
+      <div
+        class="flex justify-between m-10 md:mx-20 py-2 px-3 border border-gray-500 rounded-md bg-gray-100"
+      >
+        <div class="flex gap-4">
+          <input type="checkbox" name="myCheckbox" class="bg-gray-200" />
+          <p class="font-bold">Chicken Pizza</p>
+        </div>
+        <div class="flex gap-5">
+          <span><i class="fa-solid fa-check" style="color: #50dc68"></i></span>
+          <span><i class="fa-solid fa-trash" style="color: #ff2929"></i></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
